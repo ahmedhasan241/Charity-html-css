@@ -1,0 +1,354 @@
+* {
+    margin: 0px;padding: 0px;
+}
+div {
+    overflow: hidden;
+}
+html {
+    font-size: 17.5px;
+    font-family: Roboto;font-weight: 400;
+}
+header{
+    text-align: center;
+    border-bottom: 0.5px  #dfdcee;
+}
+i {
+    margin: 12px 5px 7px 5px ;
+    color: #d3d0e0;
+}
+.bg-land {
+    text-align: center;
+    display: flex;
+}
+.bg-land img {
+    margin: 35px 75px 40px 250px ;
+
+}
+
+.bg-land ul  {
+    list-style: none;
+    margin: 51px 20px 50px 20px;
+
+    top: 55px; left: 550px;
+}
+.bg-land ul li {
+    margin: 0px 10px;
+    word-spacing: 10px;
+    display: inline-block;
+}
+.bg-land a{
+    text-decoration: none;
+    text-transform: none;
+    color: #283771;
+    
+}
+.bg-land a:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: #EC5B73;
+    
+}
+.bg-land input {
+
+    margin: 47px 10px 50px 20px;
+}
+.bg-land span {
+
+    margin: 41px 10px 0px 0px;
+}
+.bg-home {
+    margin: 0 auto;
+    color: white;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.637) ,rgba(0, 0, 0, 0.637)) ,
+      url(../img/banner/banner.jpg);
+      text-align: center;
+
+}
+.bg-home .pragh {
+    padding-top: 175px;
+    padding-bottom: 80px;
+}
+.bg-home .pragh button {
+    margin-right: 6px;
+     margin-bottom:  75px ; 
+     color: white; 
+     border: 1px solid #EA2B57; 
+     padding: 10px 40px; 
+     background-color: #EA2B57;
+}
+.total-frist {
+    background-color: #E7C12C;
+    color: white;
+    margin: -30px 2.5% 100px 12%;
+    width: 18%;
+    height: 80px;
+    padding: 30px 25px 30px 25px;
+    display: inline-block;
+    
+}
+.total-second {
+    background-color: #EA2B57;
+    color: white;
+    margin: -30px 2.5% 100px 2.5%;
+    width: 18%;
+    height: 80px;
+    padding: 30px 25px 30px 25px;
+    display: inline-block;
+    
+}
+.total-third {
+    background-color: #91D213;
+    color: white;
+    margin: -30px 12% 100px 2.5%;
+    width: 18%;
+    height: 80px;
+    padding: 30px 25px 30px 25px;
+    display: inline-block;
+    
+}
+.t-frist {
+    float: left;
+    width: 75%;
+    border-right: white 1px solid;
+
+}
+    .t-second {
+    float: right;
+    width: 22.5%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.hello {
+    margin: 0px 10% 100px 10%;
+    display: flex;
+
+}
+.right-column {
+    width: 50%;
+    margin-right: 100px;
+}
+.inner-card {
+    display: flex;
+}
+.card {
+    width: 25%;
+    padding: 20px 25px;
+    border: 0.5px solid rgba(39, 36, 36, 0.219);
+    margin: 10px 9px;
+}
+.left-column {
+    width: 40%;
+    background-color: #EEEEEE;
+    padding: 10px;
+    text-align: center;
+}
+.left-column img {
+    margin-top: -40px;
+}
+.frist-major {
+    margin: 0px 30%;
+}
+.second-major {
+    margin: 50px 10%;
+    display: flex;
+    
+}
+.serv {
+    width: 360px;
+    margin: 0px 4% 75px 4%;
+}
+.serv img {
+    margin-bottom: 25px;
+    width: 100%;
+}
+.features {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(../img/feature-bg.jpg);
+    background-size: cover;
+    padding: 150px 40px;
+    height: 600px;
+    margin-bottom: 125px;
+}
+.frist-fe {
+    margin: 50px 30% 100px 30%;
+    color: white;
+}
+.second-fe {
+    margin: 50px 9.5%;
+    display: flex;
+    width: 100%;
+}
+.feature {
+    margin: 50px 1%;
+    width: 25%;
+    background-image: linear-gradient(rgba(194, 182, 182, 0.24) , rgba(194, 182, 182, 0.24) );
+    color: white;
+    text-align: center;
+    height: 325px;
+    border: 2px solid  rgba(194, 182, 182, 0.589) ;
+}
+.feature i {
+    margin: 40px 30px 40px 30px;
+    font-size: 35px;
+}
+.feature h2 {
+    margin-bottom: 35px;
+
+}
+.feature p {
+
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    margin-bottom: 50px;
+    
+}
+.frist-event {
+    margin: 0px 30% 100px 30%;
+
+}
+.second-event {
+    margin: 0px 175px 150px 175px;
+
+    display: flex;
+} 
+.ev {
+    width: 50%;
+    height: 220px;
+    margin-right: 15px;
+    /* display: flex; */
+
+}
+.ev img {
+    width: 50%;
+    margin-right: 20px;
+    float: left;
+}
+.ev span h1 {       
+    margin: 25px 10px 30px 0px;
+
+}
+.donors {
+    display: flex;
+    background-color: #FAF9FF ; 
+    padding: 75px 165px;
+} 
+.right-donor {
+    width: 30%;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+.left-donor {
+    width: 30%;
+    background-color: white;
+    margin-right: 40px;
+}
+.left-donor .inner-donor {
+    margin: 50px 25px;
+    text-align: center;
+}
+.clients-logo {
+    padding: 0px 165px;
+    margin: 100px 0px 75px 0px;
+}
+.clients-logo img {
+    width: 10%;
+    margin: 0px 55px;
+    opacity: 65%;
+}
+footer {
+    background-color: #03061D;
+
+}
+footer .left-footer {
+    width: 50%;
+    margin-top: 150px;
+    display: flex;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+}
+.left-footer .about {
+    width: 50%;
+    color: white;
+    margin-right: 30px;
+}
+.left-footer .about h2 {
+    margin-bottom: 25px;
+    font-size: 17.5px;
+
+}
+.left-footer .about p  {
+    color: #47474D;
+}
+footer .navigation {
+    width: 50%;
+    color: white;
+
+}
+.left-footer .navigation h2 {
+    margin-bottom: 25px;
+    font-size: 17.5px;
+
+}
+.left-footer .navigation span  {
+    display: flex;
+}
+
+.left-footer .navigation span ul  {
+    margin-right: 20px;
+}
+.left-footer .navigation span ul a {
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+    color: #47474D ;
+}
+.left-footer .navigation span ul a li {
+    margin-bottom: 14px;
+    margin-right: 22.5px;
+}
+footer   .right-footer {
+    display: flex;
+    width: 50%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.right-footer .news {
+    width: 50%;
+    color: white;
+    margin-right: 30px;
+}
+.right-footer .news  h2{
+    margin-bottom: 25px;
+    font-size: 17.5px;
+}
+.right-footer .news p  {
+    color: #47474D;
+    margin-bottom: 20px;
+}
+.right-footer .insta {
+    width: 50%;
+    color: white;
+}
+.right-footer .insta  h2{
+    margin-bottom: 25px;
+    font-size: 17.5px;
+}
+.right-footer .insta span img {
+    margin: 0px 1px 1px 0px;
+}
+.copy {
+    margin: 50px 175px 25px 175px ;
+    color: #47474D;
+    display: flex;
+    width: 50%;
+}
+.icons{
+    margin: 50px 0px 25px 175px ;
+    width: 50%;
+}
+.icons i {
+    color: #47474D;
+    margin: 0px 20px;
+}
